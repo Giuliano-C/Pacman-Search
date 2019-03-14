@@ -1,17 +1,18 @@
 # Pacman-Search
-Assignment provided by UC Berkeley
 
-Students implement depth-first, breadth-first, uniform cost, and A* search algorithms. These algorithms are used to solve navigation and traveling salesman problems in the Pacman world.
+Implemented depth-first, breadth-first, uniform cost, and A* search algorithms. These algorithms were used to solve navigation and traveling salesman problems in the Pacman world.
 
 
 ## Part 1 - Finding a Fixed Food Dot using Depth First Search
 
 The command below tells the SearchAgent to use tinyMazeSearch as its search algorithm, which is implemented in search.py. Pacman should navigate the maze successfully.
+
 ```bash
 $ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
 ```
 
 The commands below utilises the DFS algorithm to allow Pacman to nagivate the different sized mazes successfully.
+
 ```bash
 $ python pacman.py -l tinyMaze -p SearchAgent
 ```
